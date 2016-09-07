@@ -58,7 +58,7 @@ body {
 	clear: both;
 }
 .centered {text-align: center}
-.mt {margin-top: 50px;}
+/*.mt {margin-top: 50px;}*/
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
@@ -179,7 +179,7 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/shutterstock_1766051.jpg) no-repeat center top;
+	background: url(../img/Girls-Code.jpg) no-repeat center top;
 	padding-top: 180px;
 	text-align:center;
 	background-attachment: relative;
@@ -199,12 +199,27 @@ input {
     background-size: cover;
 }
 
+.video-container {
+  display: none;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#h .intro {
+  z-index: 10;
+}
+
 #h .logo {
 	top: 30px;
 	left: 45px;
 	font-size: 18px;
 	font-weight: 900;
 	position:absolute;
+  z-index: 100;
 }
 
 #h .social {
@@ -236,7 +251,7 @@ input {
 
 /* SEP */
 #sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+	background: url(../img/ICrendering.png) no-repeat center top;
 	padding-top: 90px;
 	text-align:center;
 	background-attachment: relative;
@@ -256,10 +271,16 @@ input {
     background-size: cover;
 }
 
+#sep h1{
+  padding: 10px;
+  background: rgba(10,10,10,0.6);
+}
 #sep h4 {
 	letter-spacing: 1px;
 	line-height: 30px;
-	margin-top: 30px;
+	margin-top: -10px;
+  padding: 10px;
+  background: rgba(10,10,10,0.6);
 }
 
 /* Pricing Tables */
@@ -338,6 +359,14 @@ ul {
 #green tgr {
 	font-weight: 700;
 	letter-spacing: 1px;
+}
+
+/*JOIN*/
+#j {
+  padding-top: 60px;
+	padding-bottom: 60px;
+	background: #d44627;
+	color: white;
 }
 
 /* FOOTER */
