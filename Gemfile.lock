@@ -199,11 +199,6 @@ PLATFORMS
 DEPENDENCIES
   ennovartheme (~> 0.1.4)
   github-pages
-  jekyll-feed (~> 0.6)
-  tzinfo-data
-
-RUBY VERSION
-   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.6
