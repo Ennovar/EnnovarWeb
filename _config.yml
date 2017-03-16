@@ -31,7 +31,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  
+
+
 # Build settings
 include: [_pages]
 markdown: kramdown
