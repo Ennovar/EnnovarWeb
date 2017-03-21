@@ -19,6 +19,10 @@
   text-align: right;
 }
 
+#post-layout {
+  min-height: 56vh;
+}
+
 * {
 	margin: 0;
 	padding: 0px;
@@ -35,7 +39,37 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+#news {
+  min-height: 30vh;
+}
 
+#blog {
+  min-height: 30vh;
+}
+
+.navbar-default {
+  background: #222;
+  border: none;
+  border-radius: 0;
+}
+
+.blog-image {
+  max-width: 300px;
+}
+.post img {
+  width: 100%;
+}
+.post {
+  margin: 10%;
+  margin-top: 2%;
+}
+.blog-post {
+  padding-top: 16px;
+}
+.blog-thumb {
+  display: inline-block;
+  padding: 16px;
+}
 p {
 	padding: 0;
 	margin-bottom: 12px;

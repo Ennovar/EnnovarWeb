@@ -32,9 +32,16 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+collections:
+  news:
+    output: true
+    path: "/news/:title.:output_ext"
+  posts:
+    output: true
+    path: "/posts/:title.:output_ext"
 
 # Build settings
-include: [_pages]
+include: [_pages, _news, _posts]
 markdown: kramdown
 permalink: /:year/:month/:title
 sass:
