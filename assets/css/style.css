@@ -54,18 +54,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-image {
-  max-width: 300px;
+  max-height: 200px;
 }
+
 .post img {
   width: 100%;
 }
+
 .post {
   margin: 10%;
   margin-top: 2%;
 }
+
 .blog-post {
   padding-top: 16px;
 }
+
 .blog-thumb {
   display: inline-block;
   padding: 16px;
