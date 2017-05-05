@@ -41,6 +41,7 @@ collections:
     path: "/posts/:title.:output_ext"
   pages:
     output: true
+    path: "/pages/:title.:output_ext"
 
 # Build settings
 include: [_pages, _news, _posts]

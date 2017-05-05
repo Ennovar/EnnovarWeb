@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+---
+<div class="container">
+  <div class="row">
+    {% for post in site.posts %}
+      <div class="blog-thumb col-md-4">
+        <img class="blog-image" src="{{post.image_url}}" />
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> {{ post.categories }}<a href="{{ post.url }}"></a></small></p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
