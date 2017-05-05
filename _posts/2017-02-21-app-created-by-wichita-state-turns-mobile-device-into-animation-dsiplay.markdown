@@ -9,8 +9,7 @@ short_description: "Shocker fans can light up Charles Koch Arena during
 tonight's (Tuesday, Feb. 21) men's basketball game, courtesy of a new
 app developed at Wichita State."
 ---
-# App created by Wichita State turns mobile device into animation
-display
+# App created by Wichita State turns mobile device into animation display
 
 
 ![](/assets/img/peoplepixelblog.jpg)
