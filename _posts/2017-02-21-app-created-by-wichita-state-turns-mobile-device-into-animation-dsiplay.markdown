@@ -3,7 +3,7 @@ layout: post
 title:  "App created by Wichita State turns mobile device into animation
 display"
 date:   2017-02-21 15:44:31 -0600
-categories: news software
+categories: news, software
 image_url: /assets/img/peoplepixelblog.jpg
 short_description: "Shocker fans can light up Charles Koch Arena during
 tonight's (Tuesday, Feb. 21) men's basketball game, courtesy of a new
