@@ -293,7 +293,7 @@ input {
 
 /* SEP */
 #sep {
-	background: url(../img/ICrendering.png) no-repeat center top;
+	background: url(../img/light-bulb.jpg) no-repeat center top;
 	padding-top: 90px;
 	text-align:center;
 	background-attachment: relative;
@@ -372,7 +372,7 @@ ul {
 
 /* SPONSORS */
 #g {
-	background: #f2f2f2;
+	background: #03C9A9;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -407,8 +407,8 @@ ul {
 #j {
   padding-top: 60px;
 	padding-bottom: 60px;
-	background: #d44627;
-	color: white;
+	background: white;
+	color: black;
 }
 
 /* FOOTER */
