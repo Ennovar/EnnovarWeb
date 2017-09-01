@@ -7,13 +7,17 @@ title: Home
       <div class="container intro">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 centered">
-            <img src="assets/img/Ennovar_Logo_Color_750px.png" style="width:100%;" alt="Ennovar is adding jobs and growing the economy — fulfilling WSU’s strategic plan — and paving the way for additional organizations on campus that make the Innovation University concept real — right now.">
+            <a href="http://webs.wichita.edu/?u=ennovar&p=/index">
+            <img src="assets/img/Ennovar_Logo_Color_750px.png" style="width:100%;" alt="Ennovar">
+            </a>
             <h1 style="text-align:right;"></h1>
           </div>
         </div><!--/row-->
         <div class="row"><br><br><br><br>
           <div>
+            <a href="http://www.wichita.edu">
             <img src="assets/img/wsu-logo.png">
+            </a>
           </div>
         </div>
       </div><!--/container-->
@@ -201,7 +205,7 @@ title: Home
     <div id="news">
       <div class="container">
         <div class="row">
-          <h2>News</h2>
+          <h2>What we're up to</h2>
           {% assign sorted_news = (site.news | sort: 'date' | limit: 3) | reverse %}
           {% for post in sorted_news limit: 3 %}
             {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -220,7 +224,7 @@ title: Home
         </div>
         <div class="row">
           <div class="col-md-3 col-md-offset-9">
-            <a href="/pages/posts.html"><h2>See More News >></h2></a>
+            <a href="/pages/posts.html"><h2><button class="btn btn-conf-2 btn-green">See more news</button></a>
           </div>
         </div>
       </div>
