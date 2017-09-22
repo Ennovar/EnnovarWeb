@@ -49,3 +49,9 @@ markdown: kramdown
 permalink: /:year/:month/:title
 sass:
     style: compressed
+
+defaults:
+  - scope:
+      path: "assets/mp4"
+    values:
+      video: true
